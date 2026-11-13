@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://canodelacuadra.github.io/tecno-serprofes/sitemap.xml

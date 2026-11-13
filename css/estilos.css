@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #292524;
+}
+
+header {
+  background: #173b63;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+header>a{
+    color:white;
+    font-size:24px;
+     text-decoration: none;
+}
+header > a::first-letter{
+  font-size:130%; 
+}
+
+nav a {
+  color: #fff;
+  margin: 0 .5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero{
+    max-height: 200px;
+    overflow:hidden;
+}
+.hero img{
+    width:100%;
+    object-fit:cover;
+   
+}
+
+main {
+  max-width: 62rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+footer {
+  background: #f5f5f4;
+  padding: 1.25rem;
+  text-align: center;
+}
+.estrella {
+    display:inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(194, 169, 25);
+  /* Define los puntos de coordenadas para una estrella de 5 puntas */
+  clip-path: polygon(
+    50% 0%, 
+    61% 35%, 
+    98% 35%, 
+    68% 57%, 
+    79% 91%, 
+    50% 70%, 
+    21% 91%, 
+    32% 57%, 
+    2% 35%, 
+    39% 35%
+  );
+}
